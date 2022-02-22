@@ -10,7 +10,7 @@ public class CalculateSkuB {
 			int quotient = qunatOfB / 2;
 			int remainder = qunatOfB % 2;
 
-			totalB = (quotient >= 0) ? totalB + quotient * Constant.PRICE_COMBO_SKU_B : totalB;
+			totalB = (quotient >= 0) ? totalB + quotient * Constant.PRICE_PROMO_SKU_B : totalB;
 
 			totalB = (remainder >= 0) ? totalB + remainder * Constant.PRICE_SKU_B : totalB;
 		} else {
