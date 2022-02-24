@@ -1,4 +1,4 @@
-package com.engine.claculatecost;
+package com.engine.calculatecost;
 
 import com.engine.promotion.CalculatePromotion;
 
